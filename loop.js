@@ -10,7 +10,7 @@ while (shouldLoopRun){
     var reply = rl.question("Would you like to enter a name of a person?  ")
     if (reply === "yes"){
         n = rl.question("Enter the persons name: ")
-        shouldLoopRun = true
+        shouldLoopRun 
     }else {
         shouldLoopRun = false
     }
