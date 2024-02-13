@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "strnum": "^1.0.5"
+  }
+}
