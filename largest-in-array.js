@@ -5,4 +5,10 @@ const numbers = [12, 44, 9.8473, 30, -12, 57382, 1, 0.3422]
 // }
 // console.log(largestNum)
 
-console.log(Math.max(...numbers))
+// console.log(Math.max(...numbers))
+numbers.sort(function(a, b) {
+    return b - a;
+});
+
+// Displaying the modified array
+console.log(numbers);
