@@ -18,6 +18,7 @@
 // console.log(checkUsername("apple45")) // false
 
 var result = "john james jones"
+// Another alternative solution : var capitalized = result.replace(/(^|\s)[a-z]/g, (x => x.toLocalUpperCase()))
 var splitIntoWords = result.split(" ")
 
 for (var i = 0; i<splitIntoWords.length; i ++){
