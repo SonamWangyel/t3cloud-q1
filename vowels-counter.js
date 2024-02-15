@@ -11,12 +11,13 @@ function vowelCounter(x) {
             }
         }
     }
+    var count = counter > 0 ? "The word has" + " " + counter + " " + "vowels" : "There are no vowels in the given word"
+    return count
+    // if (counter > 0) {
+    //     return "The word has" + " " + counter + " " + "vowels";
+    // } else {
+    //     return "There are no vowels in the given word";
+    // }
+ }
 
-    if (counter > 0) {
-        return "The word has" + " " + counter + " " + "vowels";
-    } else {
-        return "There are no vowels in the given word";
-    }
-}
-
-console.log(vowelCounter("aeiou"))
+console.log(vowelCounter("Sonam"))
