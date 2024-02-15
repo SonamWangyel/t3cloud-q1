@@ -1,1 +1,0 @@
-# Basic-javascript-practice
