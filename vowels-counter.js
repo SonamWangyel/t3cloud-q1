@@ -19,4 +19,4 @@ function vowelCounter(x) {
     }
 }
 
-console.log(vowelCounter("aeiou"));
+console.log(vowelCounter("aeiou"))
